@@ -1,5 +1,6 @@
 
 import 'dart:developer';
+
 import 'package:ecommerce_app/constants.dart';
 import 'package:ecommerce_app/homePage.dart';
 import 'package:ecommerce_app/registration.dart';
@@ -21,6 +22,7 @@ class _LoginPageState extends State<LoginPage> {
   
   late String username,password;
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
+  
 
   @override
   void initState() {
@@ -142,6 +144,7 @@ class _LoginPageState extends State<LoginPage> {
                           fontSize: 15,
                           
                         ),
+                        
                         decoration: const InputDecoration.collapsed(hintText: 'Username'),
                         onChanged: (text) => setState(() {
                           password = text;
@@ -192,7 +195,7 @@ class _LoginPageState extends State<LoginPage> {
                         ),),
                       )
                     ],
-                  )
+                  ),
                           ],
                         ),
               )),

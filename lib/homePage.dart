@@ -5,7 +5,6 @@ import 'dart:developer';
 import 'package:ecommerce_app/constants.dart';
 import 'package:ecommerce_app/drawer.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:staggered_grid_view_flutter/widgets/staggered_grid_view.dart';
 import 'package:staggered_grid_view_flutter/widgets/staggered_tile.dart';
 
